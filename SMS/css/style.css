@@ -1,0 +1,137 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../image.jpeg);
+     height: 100vh ;
+     background-size: cover;
+     background-position: center;  
+}
+.navbar{
+display: flex;
+align-items: center;
+padding-right: 2px;
+padding-left: 60px;
+padding: 2px;
+padding-top: 50px;
+
+}
+nav{
+
+flex: 1;
+text-align: right;
+
+}
+nav ul{
+
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+
+    display: inline-block;
+    margin-right: 28px;
+    
+}
+nav ul li a{
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    transition: 0.6s ease;
+}
+nav ul li a  button{
+font-size: 20px;
+outline: none;
+color: #fff;
+border: none;
+background: transparent;
+cursor: pointer;
+font-family: sans-serif;
+transition: 0.6s ease;
+border-radius: 20px;
+}
+
+
+nav ul li a  button:hover{
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color:rgb(58, 223, 58);
+    }
+
+
+
+
+ /* nav ul li a button:hover{
+ background: transparent;
+     background-color: #fff;
+    color: #000;black */
+/* }  */
+
+.main{
+
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.title h1:hover{
+    color:rgb(58, 223, 58);
+    font-size: 40px;
+}
+
+.button{
+    background: transparent;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    background: transparent;
+    font-family: sans-serif;
+    border: 1px solid transparent ;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition:0.6s ease ;
+    font-size: 20px;
+}
+.btn:hover{
+    border-radius: 20px;
+    background: transparent;
+    background-color: rgb(82, 243, 82);
+    color: #000;
+
+}
+.abcd{
+    display: flex;
+    background-color: black;
+}
+
+.log{
+    
+    background-color: RED;
+    padding: 10px 5px;
+border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 760px;
+    
+    
+}
+
